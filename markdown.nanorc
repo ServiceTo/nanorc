@@ -4,7 +4,7 @@ syntax "Markdown" "\.(md|mkd|mkdn|markdown)$"
 color cyan ".*[ :]\|[ :].*"
 
 # quotes
-color brightblack  "^>.*"
+color red  "^>.*"
 
 # Emphasis
 color green "(^|[[:space:]])(_[^ ][^_]*_|\*[^ ][^*]*\*)"

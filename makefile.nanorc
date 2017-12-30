@@ -14,8 +14,8 @@ color yellow ""(\\.|[^"])*"|'(\\.|[^'])*'"
 color brightyellow "\$+(\{[^} ]+\}|\([^) ]+\))"
 color brightyellow "\$[@^<*?%|+]|\$\([@^<*?%+-][DF]\)"
 color magenta   "\$\$|\\.?"
-color brightblack "(^|[[:space:]])#([^{].*)?$"
-color brightblack  "^	@#.*"
+color red "(^|[[:space:]])#([^{].*)?$"
+color red  "^	@#.*"
 
 # Show trailing whitespace
 color ,green "[[:space:]]+$"
